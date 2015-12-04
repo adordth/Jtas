@@ -1,15 +1,17 @@
 import java.io.*;
 
-/*
-  Crear JAR:
-  jar -cf fichero.jar *.class
-  Extraer manifiest
-  jar -xf fichero.jar META-INF/MANIFEST.MF
-  Anadir a Manifiesto:
-  Main-Class: claseMain
-  Generar JAR definitivo
-  jar cfm fichero.jar META-INF/MANIFEST.MF *.class
-*/
+/**
+ *
+ * Crear JAR:
+ * jar -cf fichero.jar *.class
+ * Extraer manifiest
+ * jar -xf fichero.jar META-INF/MANIFEST.MF
+ * Anadir a Manifiesto:
+ * Main-Class: claseMain
+ * Generar JAR definitivo
+*  jar cfm fichero.jar META-INF/MANIFEST.MF *.class
+* 
+**/
 
 public class Jtapp{
 	public static void main(String args[]){	
